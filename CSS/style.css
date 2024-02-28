@@ -1,0 +1,133 @@
+@font-face {
+    font-family:Roboto-Regular;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto-Thin;
+    src: url(../fonts/Roboto/Roboto-Thin.ttf);
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1200px;
+    margin: 50px auto;
+}
+.container .row{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.container .row .col{
+    width: 580px;
+    height: 100%;
+}
+.col .p1{
+    font-family: Roboto-Regular;
+    padding-top: 100px;
+    font-size: 18px;
+}
+.col .title{
+    font-family: Roboto-Regular;
+    padding-top: 15px;
+    font-weight: bold;
+    font-size:45px;
+}
+.col .p2{
+    font-family: Roboto-Regular;
+    padding-top: 30px;
+    font-size:18px;
+}
+.col .navbar{
+    padding-top: 20px;
+}
+.col .navbar .navbar-ul{
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+}
+.col .navbar .navbar-ul .list a{
+    display: block;
+    text-decoration: none;
+    font-family: Roboto-Thin;
+    font-size: 18px;
+    color: white;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    background-color:#1D2F41;
+    border-radius: 4px;
+    
+}
+.btn a{
+    color: white;
+}
+.play{
+    padding-top:8px;
+}
+.watch{
+    padding-top: 15px;
+   
+}
+.container .row .col-1{
+    width: 580px;
+    height: 100%;
+    background-image:url(../img/frame-2.svg), 
+    url(../img/girl-image.png), 
+    url(../img/frame-1.svg), 
+    url(../img/trophy.svg), 
+    url(../img/sound.svg), 
+    url(../img/target.svg);
+    background-position: 60px 370px, 
+    center bottom, 
+   380px 50px, 
+   90px 130px, 
+    40px 250px, 
+    450px 300px;
+
+    background-repeat: no-repeat;
+    background-color: #E9EEF3;
+    border-radius: 5px;
+}
+
+.category{
+    width: 1200px;
+    margin: 80px auto;
+    
+}
+.row-1{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #d4d4d4;
+    border-bottom: 1px solid #d4d4d4;
+}
+.coll{
+    width: 290px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #d4d4d4;
+}
+.coll h1{
+    margin-top: 20px;
+}
+.coll p{
+    margin: 10px 0px;
+}
+.ti4{
+    border: none;
+}
